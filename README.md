@@ -6,6 +6,7 @@ This repository provides a few applications to setup an app instrumented to work
 Demo Apps:
 
 - [NodeJS Dummy App](./nodejs-dummy)
+- [Simple Demo Env](./simple-demo-env)
 
 ### Other app to explore
 
