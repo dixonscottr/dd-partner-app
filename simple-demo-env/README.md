@@ -20,4 +20,4 @@ Use your browser and `curl`/`IWR` to hit the endpoints multiple times:
 * Windows: `IWR https://localhost:5050/`
 * Windows: `curl https://localhost:5050/`
 
-Note: if port `5050` is already being used on your host, change the port the flask app uses on line 33
+Note: if port `5050` is already being used on your host, change the port the flask app uses on [line 33](https://github.com/dixonscottr/dd-partner-app/blob/master/simple-demo-env/flask_app.py#L33)
