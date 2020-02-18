@@ -42,3 +42,12 @@ Mac
 export DD_API_KEY=<KEY> & sh submit-logs.sh $DD_API_KEY
 ```
 
+## Grok Parser
+
+Use the following parsing rule to set up the Grok parser
+
+```
+parser_rule_1 \[%{date("EEE, dd MMM yyyy HH:mm:ss Z"):log_date}\] %{data:log_message} \[Message Begins\] %{data::json} \[%{word:username}\]
+
+```
+
