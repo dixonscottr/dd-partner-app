@@ -148,11 +148,11 @@ const tracer = require('dd-trace').init({
 
 #### Trace search and analytics
 
-It is also possible to enable trace search and analytics to enable additional functionnalities inside the platform. [Documentation](https://docs.datadoghq.com/tracing/trace_search_and_analytics/?tab=nodejs)
+It is also possible to enable trace search and analytics to have additional functionality in the platform. [Documentation](https://docs.datadoghq.com/tracing/trace_search_and_analytics/?tab=nodejs)
 
 #### Log injection
 
-The log injection enable the library to inject the trace_id to link the logs to the trace itself. For automated trace injection, Datadog supports the Winston library. [Documentation](https://docs.datadoghq.com/tracing/advanced/connect_logs_and_traces/?tab=nodejs).
+Log injection enables the library to inject the trace_id into the logs to correlate logs and traces. Datadog supports the Winston library for automatic trace ID injection. [Documentation](https://docs.datadoghq.com/tracing/advanced/connect_logs_and_traces/?tab=nodejs).
 
 These are a few steps to implement it within the app:
 
