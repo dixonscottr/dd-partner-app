@@ -255,7 +255,7 @@ The datadog agent can also collect some runtime metrics. This feature is current
 
 To get started, just follow the instructions to generate a token for RUM ([here is the doc](https://docs.datadoghq.com/real_user_monitoring/installation/?tab=eu)).
 
-Then make sure you select the right datacenter (eu or com) and add the advised few code lines such as the one below for eu in the file `_foot.ejs` located in `dd-partner-app/nodejs-dummy/app/views/_foot.ejs`. This will have to be added before the `</html>` tag.
+Then make sure you select the right datacenter (eu or com) and add the advised few code lines such as the one below for eu in the file `_foot.ejs` located in `dd-partner-app/nodejs-dummy/app/src/views/_foot.ejs`. This will have to be added before the `</html>` tag.
 
 ```
 <script
