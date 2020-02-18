@@ -178,8 +178,8 @@ module.exports = wlogger;
 const wlogger = require('./wlogger');
 ```
 
-- Comment the line with `app.use(logger('dev'));`
-- Setup the morgan library to use winston for logging (this should be added below the commented line above):
+- Comment out the line with `app.use(logger('dev'));`
+- Setup the morgan library to use winston for logging (this should be added below the commented out line above):
 
 ```
 class MyStream {
