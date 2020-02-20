@@ -32,20 +32,15 @@ sudo chmod -x submit-logs.sh
 
 Run the script with: 
 
-Linux
+Mac/Linux
 ```
-DD_API_KEY="API_KEY" path/to/submit-logs.sh <YOU_API_KEY>
+export DD_API_KEY=<KEY> & sh submit-logs.sh $DD_API_KEY
 ```
-note: You may need to install the `wamerican` package
+
+note: You may need to install the `wamerican` package on Linux
 
 ```
 apt-get install --reinstall wamerican
-```
-
-
-Mac
-```
-export DD_API_KEY=<KEY> & sh submit-logs.sh $DD_API_KEY
 ```
 
 ## Grok Parser
