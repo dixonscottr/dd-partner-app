@@ -10,6 +10,11 @@ Install flask to the embedded Python environment.
 * Windows: `& 'C:\Program Files\Datadog\Datadog Agent\embedded3\python.exe' -m pip install flask`
 * Mac/Linux: `/opt/datadog-agent/embedded/bin/python3.7 -m pip install flask`
 
+Update the ddtrace module:
+
+* Windows: `& 'C:\Program Files\Datadog\Datadog Agent\embedded3\python.exe' -m pip install --upgrade ddtrace`
+* Mac/Linux: `/opt/datadog-agent/embedded/bin/python3.7 -m pip install --upgrade ddtrace`
+
 Run the application:
 
 * Windows: `& 'C:\Program Files\Datadog\Datadog Agent\embedded3\python.exe' \path\to\flask_app.py`
