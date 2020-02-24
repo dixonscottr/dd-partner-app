@@ -1,4 +1,4 @@
-Use the Agent's embedded python to run the simple flask application. (Note: you can use your system's Python >- 3.7 environment as long as flask and ddtrace are installed)
+Use the Agent's embedded python to run the simple flask application. (Note: you can use your system's Python >= 3.7 environment as long as `flask` and `ddtrace` are installed)
 
 Embedded python location:
 
