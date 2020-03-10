@@ -249,7 +249,7 @@ Additional logging can be added in other places to add additional information.
 
 #### Runtime metrics
 
-The datadog agent can also collect some runtime metrics. This feature is currently in beta for NodeJs. [Documentation](https://docs.datadoghq.com/tracing/advanced/runtime_metrics/?tab=nodejs)
+The Datadog agent can also collect some runtime metrics. This feature is currently in beta for NodeJs. [Documentation](https://docs.datadoghq.com/tracing/advanced/runtime_metrics/?tab=nodejs)
 
 ### Even further with RUM: Real User Monitoring
 
